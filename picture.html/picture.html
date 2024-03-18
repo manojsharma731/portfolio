@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <style>
+      div{
+        width: 100%;
+      }
+        body,html{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+      background-size: contain;
+      background-color:  #f4f4f4;
+      height: 100%;
+        }
+
+        nav {
+            color: black;
+            padding: 10px;
+            font-weight: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: right;
+        }
+
+        .first{
+     border-radius: 22px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 26px;
+    margin-right: 150px;
+    text-decoration: none;
+    font-weight: bold;
+        }
+     .first:hover {
+            background-color: blueviolet;
+            color: #333;
+            transition: all .6s ease-out;
+        }
+      .container{
+            display: flex;
+            width:100%;
+            align-content: center;
+        }
+        .icon:hover{
+          transition: .5s ease;
+          transform: scale(1.1);
+          opacity: 1;
+          box-shadow:
+    inset 0 -3em 3em rgb(400 200 0 / 90%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 100 / 90%);
+        }
+        .headline{
+            text-align: center;
+            text-shadow: 1px 1px 2px #d5395d;
+        }
+   .icon{
+        height: 213px;
+    width: 252px;
+    border: 5px solid #333;
+    border-radius: 15px;
+    margin: 7px;
+    opacity: 0.8;
+      }
+      .cont1{
+        display: flex;
+        background-color: #816b76;
+        margin-bottom: 0px;
+        margin-top: 110px;
+      }
+      .info1{
+        width: 100%;
+      margin: 40px;
+      }
+      .cont3{
+        display: flex;
+      }
+     
+      .icon2{
+   height: 50px;
+    margin: 70px;
+      }
+      .icon2 :hover{
+       background-color: red;
+      }
+      .aboutcont{
+        background-color: #fff;
+    width: 97%;
+    margin: 15px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 29px;
+    border: 2px solid;
+
+      }
+      .section{
+        width: 500px;
+        margin: 20px;
+       
+      }
+      .imge{
+        width: 63%;
+      }
+      .abimg{
+           height: 558px;
+    width: 99%;
+    padding: 10px;
+    border-radius: 29px;
+        }
+      .sec1 p{
+        position: relative;
+        justify-content: center;
+        display: flex;
+        font-weight: bold;
+      }
+      .sec1{
+        display: flex;
+            justify-content: center;
+    position: relative;
+      }
+   .abtcont{
+    width: 100%;
+    background-color: #0b0c0c;
+   }
+   @media screen and (min-width:320px) and (max-width:425px){
+     div{
+        width: 100%;
+      }
+        body,html{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+      background-size: contain;
+      background-color:  #f4f4f4;
+      height: 100%;
+        }
+
+        nav {
+            color: black;
+            padding: 5px;
+            font-weight: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: right;
+        }
+
+        .first{
+   border-radius: 5px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 7px;
+    margin-right: 8px;
+    text-decoration: none;
+    font-weight: bold;
+        }
+     .first:hover {
+            background-color: blueviolet;
+            color: #333;
+            transition: all .6s ease-out;
+        }
+      .container{
+            display: flex;
+            width:100%;
+            align-content: center;
+        }
+        .icon:hover{
+          transition: .5s ease;
+          transform: scale(1.1);
+          opacity: 1;
+          box-shadow:
+    inset 0 -3em 3em rgb(400 200 0 / 90%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 100 / 90%);
+        }
+        .headline{
+            text-align: center;
+            font-size: 15px;          
+            text-shadow: 1px 1px 1px #d5395d;
+        }
+   .icon{
+          height: 125px;
+    width: 81%;
+    border: 5px solid #333;
+    border-radius: 14px;
+    margin: 8px;
+    opacity: 0.8;
+      }
+      .cont1{
+        display: flex;
+        background-color: #816b76;
+        margin-bottom: 0px;
+        margin-top: 110px;
+      }
+      .info1{
+       ont-size: 13px;
+    width: 100%;
+    margin: 4px;
+      }
+      .cont3{
+        display: flex;
+      }
+     
+      .icon2{
+   height: 50px;
+    margin: 70px;
+      }
+      .icon2 :hover{
+       background-color: red;
+      }
+      .aboutcont{
+       background-color: #fff;
+    width: 91%;
+    margin: 12px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 29px;
+    border: 2px solid;
+
+      }
+      .section{
+        width: 100%;
+        margin: 5px;
+       
+      }
+      .imge{
+            width: 110%;
+      }
+      .abimg{
+              height: 90%;
+    width: 90%;
+    padding: 3px;
+    border-radius: 21px;
+        }
+      .sec1 p{
+        position: relative;
+        justify-content: center;
+        display: flex;
+        font-weight: bold;
+      }
+      .sec1{
+        display: flex;
+            justify-content: center;
+    position: relative;
+      }
+   .abtcont{
+    width: 100%;
+    background-color:#0b0c0c; 
+   }
+   *{
+    font-size: 10px;
+   }
+   }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a  class="first" href="#home">Home</a></li>
+        <li><a class="first" href="#about">About</a></li>
+        <li><a class="first" href="#services">Services</a></li>
+        <li><a  class="first" href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<hr>
+<script type="anim.json"></script>
+<h3 class="headline"> Services Based On nearer Location
+</h3><h3 class="headline">
+    Select Your Domain
+</h3>
+<div class="container">
+    <div class="sec1"><a href="#room-services"><img class="icon" src="room.jpg"><p style="
+    text-decoration: none;
+">Room Services</p></a>
+    </div>
+    <div class="sec1">
+    <a href="#busicon"> <img class="icon" src="bus_icon.jpg"> <p style="
+    text-decoration: none;
+">Bus Services </p></a>
+    </div>
+    <div class="sec1"><a href="job.html"> <img class="icon" src="job.png"> <p style="
+    text-decoration: none;
+">Room Services</p></a></div>
+</div>
+<br>
+<div class="abtcont">
+<div class="aboutcont" id="about">
+    <div class="section">
+        <h3> Launch of Innovative Website - with Room, Bus, and Job Opportunities  </h3>We are excited to announce the launch of our new website, designed to enhance the living and commuting experience for students, faculty, for the public. Our platform focuses on three essential aspects of campus life: Room, Bus, and Job opportunities, providing a seamless and efficient way for users to connect with relevant services in their near vicinity</div>
+    <div class="imge">
+        <img class="abimg" src="aboutimg.jpg">
+    </div>
+</div>
+
+<div class="aboutcont" id="services">
+    <div class="service">
+        <h3> services which are available by us </h3>1. Room Section:
+Finding suitable accommodation around the campus can be a challenge, especially for newcomers. Our Room section simplifies this process by connecting room seekers with room providers in the vicinity of NIT Mizoram. Whether you are a student looking for a place to stay or a room owner with available space, our platform facilitates a smooth and convenient matchmaking process.
+
+2. Bus Section:
+Commuting to and from the campus is a vital aspect of student life. Our Bus section streamlines the process of finding and providing transportation services. Bus contractors can showcase their services, routes, and timings, while students and staff can easily locate transportation options that align with their schedules.
+
+3. Job Portal:
+In line with our commitment to holistic support, we have included a Job Portal to connect job seekers with opportunities in and around Mizoram. Local businesses and employers can post job listings, and our users can explore and apply for positions that match their skills and interests. This section aims to foster local employment and career growth within the NIT Mizoram community.
+
+Benefits for Users:
+
+Efficient and user-friendly interface
+Localized search for enhanced convenience
+Real-time updates on room availability, bus schedules, and job opportunities
+Improved networking and collaboration within the NIT Mizoram community
+We believe that this platform will not only simplify the lives of our community members but also foster a sense of connectivity and collaboration. We encourage everyone to explore the website and make the most of the opportunities it presents..</div>
+    <!-- <div class="imge">
+        <img class="abimg" src="aboutimg.jpg">
+    </div> -->
+</div>
+</div>
+<footer>
+    <div class="cont1">
+          <div class="info1">Copyright &copy 2024
+          Manoj kumar sharma</div>
+        <div class="info1">We are here to help you
+        Lorem ipsum dolor sit 
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incidcat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididuntcaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt utornim id est laborum.</div>
+        <div>
+        </div>
+</footer>
+
+</body>
+</html>

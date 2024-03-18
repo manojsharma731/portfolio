@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login-page-Signup-page</title>
+</head>
+<style >
+	 body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: #d2ccd8;
+        }
+
+
+        nav {
+            background-color: #fdfdfd05;
+            color: #fff;
+            padding: 10px;
+            background: linear-gradient(272deg, #dd8585, #57d3c2);
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: right;
+        }
+
+        .first{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 90px;
+            text-decoration: none;
+           font-family: cursive;
+        }
+     .first:hover {
+            background-color: white; 
+            transition: all .6s ease-out;
+        }
+        .bcont1{
+        	height:500px;
+		width: 550px;
+		border-radius: 5px;
+
+        }
+	.bcont{
+		height:520px;
+		width: 550px;
+		border: 2px solid goldenrod;
+		border-radius: 29px;
+	   float: right;
+	}
+	.imside{
+		height:500px;
+		width: 550px;
+		border-radius: 29px;
+	}
+	.bbcont{ 
+		 box-shadow:
+    inset 0 -3em 3em rgb(400 200 80 / 10%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 10 100 / 80%);
+		width: 1200px;
+		height: 580px;
+		padding: 20px;
+		margin: auto;
+		box-sizing: border-box;
+		border: 5px solid greenyellow;
+		border-radius: 10px;
+		background-color: cadetblue;
+	}
+	.name{
+		margin-top: 30px;
+		margin-left: 20px;
+		float: left;
+		clear: both;
+        display: flex;
+     width: 550px;
+	}
+	.area{
+		padding: 7px;
+		width: 200px;
+		margin-left: 50px;
+		display: table;
+		border-radius: 5px;
+    border: 3px solid black;
+	}
+	label{
+		float: left;
+		width: 135px;
+		font-size: 17px;
+		margin-top: 8px;
+		display: table;
+		text-align: right;
+	}
+	.btn{
+		margin: auto;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+	}
+	hr{
+    margin-top: 1px 
+	}
+	.lk1{
+		float: left;
+		width: 275px;
+		display: flex;
+    justify-content: center;
+     background-color: cadetblue;
+    border-radius:42px 0px 0px 42px;
+  height: 50px;
+	}
+	.lk1:hover{
+		transition: 0.4s ease-in;
+		 filter: drop-shadow(2px 4px 6px black);
+	}
+	.lk2{
+		float: right;
+		width: 275px;
+		display: flex;
+    justify-content: center;
+     background-color: cadetblue;
+    border-radius: 0px 42px 42px 0px;
+  height: 50px;
+	}
+	.lk2:hover{
+		transition: 0.4s ease-in;
+		 filter: drop-shadow(2px 4px 6px black);
+	}
+	.lk{
+  width: 550px;
+  height: 50px;
+     
+	}
+	.second{
+		text-decoration: none;
+		margin:auto;
+	}
+
+</style>
+<body>
+	<nav>
+    <ul>
+         <li><a class="first" href="#services">Services</a></li>
+        <li><a  class="first" href="picture.html">Home</a></li>
+    </ul>
+</nav>
+<hr>
+<div class="bbcont">
+<div class="bcont">
+	<form>
+		<div class="lk">
+			<div class="lk1"> <a class="second" href="">Login</a>  </div>
+			<div class="lk2"><a class="second" href="">Sign-up</a> </div>
+		</div>
+		<div class="name">
+		<label> Company Name :</label>
+		<input  class="area" type="text" name="name" placeholder="Enter name of your  Company ">
+		</div>
+		<div class="name">
+		<label>Email id :</label>
+		<input  class="area" type="text" name="Email" placeholder="something@gmail.com ">
+		</div>
+		<div class="name">
+		<label>Your Domain :</label>
+		<select  class="area">
+			<option value="B.tech">B.tech</option>
+			<option value="B.tech">Diploma</option>
+			<option value="B.tech">I.T.I</option>
+			<option value="B.tech">B.Sc</option>
+			<option value="B.tech">Bca</option>
+		</select>
+		</div>
+		<div class="name">
+		<label>Address :</label>
+		<input  class="area" type="text" name="Address" placeholder="Address of your Company">
+		</div>
+		<div class="name">
+		<label>Salary :</label>
+		<input class="area" type="text" name="salary" placeholder="Enter salary">
+		</div>
+		<div class="name">
+		<button class="btn">Submit</button>
+	</div>
+	</form>
+</div>
+<div class="bcont1"> <img  class="imside" src="hire.jpg">  </div>
+</div>
+<br>
+</body>
+</html>
